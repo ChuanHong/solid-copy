@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(MASS, mvrnorm, ginv)
+importFrom(glmpath, glmpath)
+importFrom(glmnet, glmnet)
+importFrom("stats", "approx", "bw.nrd", "coef", "glm", "pnorm",
+             "predict", "rbinom", "sd")
