@@ -1,21 +1,13 @@
 Package: solid
-Type: Package
-Title: A Divide-and-Conquer Method for Sparse Risk Prediction and
-        Evaluation
-Version: 1.1
-Date: 2019-11-07
-Authors@R: c(person("Chuan", "Hong", role=c("aut", "cre"),
-                     email ="chuan_hong@hms.harvard.edu"),
-		     person("Yan", "Wang", role="aut"),
-			 person("Tianxi", "Cai", role="ctb"))
+Title: A Divide-and-Conquer Method for Sparse Risk Prediction and Evaluation
+Version: 0.1.2
+Authors@R: c(
+    person("Chuan", "Hong", role=c("aut", "cre"), email ="chuan_hong@hms.harvard.edu"),
+		person("Yan", "Wang", role="aut"),
+		person("Tianxi", "Cai", role="ctb"))
 Imports: MASS, glmpath, glmnet, stats
 Description: The package consists 1) a screening and one-step linearization infused DAC (SOLID) algorithm to fit sparse logistic regression to massive datasets, and 2) a modified cross-validation (MCV) that utilizes the side products of the SOLID hence substantially reduce the computational burden.
 Depends: R (>= 3.0.0)
-License: GPL (>= 2)
+License: GPL-3
 LazyLoad: no
-Packaged: 2019-11-06 18:41:52 UTC; ch263
-Author: Chuan Hong [aut, cre],
-  Yan Wang [aut],
-  Tianxi Cai [ctb]
-Maintainer: Chuan Hong <chuan_hong@hms.harvard.edu>
 NeedsCompilation: no
