@@ -11,3 +11,5 @@ Depends: R (>= 3.0.0)
 License: GPL-3
 LazyLoad: no
 NeedsCompilation: no
+URL: https://github.com/celehs/solid
+BugReports: https://github.com/celehs/solid/issues

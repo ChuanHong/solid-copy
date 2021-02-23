@@ -67,9 +67,11 @@
 <div id="solid-a-divide-and-conquer-method-for-sparse-risk-prediction-and-evaluation" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#solid-a-divide-and-conquer-method-for-sparse-risk-prediction-and-evaluation" class="anchor"></a>solid: A Divide-and-Conquer Method for Sparse Risk Prediction and Evaluation</h1></div>
+
 <div id="overview" class="section level2">
 <h2 class="hasAnchor">
 <a href="#overview" class="anchor"></a>Overview</h2>
+<p>Divide-and-conquer (DAC) is a commonly used strategy to overcome the challenges of extraordinarily large data, by first breaking the dataset into series of data blocks, then combining results from individual data blocks to obtain a final estimation. We propose a screening and one-step linearization infused DAC (SOLID) algorithm to fit sparse logistic regression to massive datasets, by integrating the DAC strategy with a screening step and sequences of linearization.</p>
 <p>The package <code>solid</code> consists 1) a screening and one-step linearization infused DAC (SOLID) algorithm to fit sparse logistic regression to massive datasets, and 2) a modified cross-validation (MCV) that utilizes the side products of the SOLID hence substantially reduce the computational burden.</p>
 </div>
 <div id="installation" class="section level2">
@@ -81,16 +83,25 @@
 <span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"celehs/solid"</span><span class="op">)</span></pre></div>
 </div>
 </div>
-<div id="references" class="section level1">
+<div id="citation" class="section level1">
 <h1 class="hasAnchor">
-<a href="#references" class="anchor"></a>References</h1>
-<p>Hong, C., Wang, Y. and Cat T. (2019). A Divide-and-Conquer Method for Sparse Risk Prediction and Evaluation (under revision).</p>
+<a href="#citation" class="anchor"></a>Citation</h1>
+<p>Hong C, Wang Y, Cai T. A divide-and-conquer method for sparse risk prediction and evaluation. Biostatistics (Oxford, England). 2020 Sep. <a href="https://doi.org/10.1093/biostatistics/kxaa031" class="uri">https://doi.org/10.1093/biostatistics/kxaa031</a></p>
 </div>
 
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
-    <div class="license">
+    <div class="links">
+<h2>Links</h2>
+<ul class="list-unstyled">
+<li>Browse source code at <br><a href="https://github.com/celehs/solid/">https://​github.com/​celehs/​solid/​</a>
+</li>
+<li>Report a bug at <br><a href="https://github.com/celehs/solid/issues">https://​github.com/​celehs/​solid/​issues</a>
+</li>
+</ul>
+</div>
+<div class="license">
 <h2>License</h2>
 <ul class="list-unstyled">
 <li><a href="https://www.r-project.org/Licenses/GPL-3">GPL-3</a></li>
@@ -105,7 +116,13 @@
 </ul>
 </div>
 
-  </div>
+  <div class="dev-status">
+<h2>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://CRAN.R-project.org/package=solid"><img src="https://www.r-pkg.org/badges/version/solid" alt="CRAN"></a></li>
+</ul>
+</div>
+</div>
 </div>
 
 
